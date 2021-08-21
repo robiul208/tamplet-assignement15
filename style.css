@@ -1,0 +1,212 @@
+/*  defoult css heare */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.clear-fix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+img {
+  max-width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: "Work Sans", sans-serif;
+}
+
+/*  tamplet css here. */
+
+.fix-width {
+  max-width: 1370px;
+  margin: auto;
+}
+/*  header section */
+.header {
+  background-color: #22c3a3;
+  color: white;
+  padding: 10px 0px;
+}
+.heder-logo-left {
+  width: 25%;
+  float: left;
+}
+
+.header-menu-Right {
+  width: 75%;
+  float: right;
+}
+.header-menu-Right ul {
+  text-align: right;
+}
+.header-menu-Right ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+.header-menu-Right ul li a {
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+  padding: 20px 0px;
+}
+/* banner sewction coding here */
+.banner {
+  background-image: url(https://i.ibb.co/nDMLMmc/header-bg01.jpg);
+  padding: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+}
+.banner h1 {
+  font-size: 51px;
+  margin-bottom: 20px;
+}
+.banner h2 {
+  font-size: 21px;
+  margin-bottom: 50px;
+}
+.banner span a {
+  color: #fff;
+  border: 1px solid #ddd;
+  padding: 12px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+/* content section */
+
+.content {
+  padding: 70px 0px;
+}
+.content h1 {
+  font-size: 38px;
+  margin-bottom: 27px;
+  color: gray;
+}
+.content p {
+  color: gray;
+}
+/*  service section coding here */
+.service {
+  padding: 40px 0px;
+}
+.blog-section {
+  width: 25%;
+  float: left;
+  padding: 0px 40px;
+  box-sizing: border-box;
+}
+.blog-section span {
+  font-size: 35px;
+  color: aqua;
+}
+.blog-section h2 {
+  margin: 13px;
+  color: gray;
+  font-weight: 600;
+}
+.blog-section p {
+  color: gray;
+}
+/*  about section */
+.about {
+  border-top: 2px solid #22c3a3;
+  margin-top: 218px;
+}
+.about h1 {
+  color: gray;
+  font-size: 39px;
+  margin-top: 59px;
+}
+.about p {
+  color: gray;
+  margin-top: 38px;
+}
+
+/*  product section */
+
+/* img {
+  max-width: 100%;
+  text-align: center;
+} */
+.product {
+  margin-top: 100px;
+}
+.productImg-left {
+  width: 40%;
+  float: left;
+}
+.productContent-right {
+  width: 55%;
+  float: right;
+}
+.productContent-right h2 {
+  font-size: 26px;
+  margin-bottom: 21px;
+  color: gray;
+}
+.productContent-right p {
+  margin-bottom: 20px;
+  color: gray;
+}
+
+/*  contact section */
+
+.contact {
+  background-color: rgb(241, 238, 238);
+  padding: 60px;
+}
+.contact h1 {
+  color: gray;
+}
+.contact p {
+  color: gray;
+  margin-top: 10px;
+}
+
+/* .contact box */
+.cottactBox {
+  max-width: 1000px;
+  margin: auto;
+  padding: 110px;
+}
+.box {
+  float: left;
+  padding: 20px;
+  margin-left: 118px;
+}
+.box span {
+  color: aqua;
+}
+/* footer section */
+.footer {
+  background-color: #22c3a3;
+  padding: 20px 0px;
+}
+.footer ul {
+}
+.footer ul li {
+  display: inline-block;
+  margin-left: 15px;
+}
+.footer ul li a {
+  display: inline-block;
+  color: #fff;
+}
+.footer ul li a:hover {
+}
